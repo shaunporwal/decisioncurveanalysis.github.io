@@ -11,19 +11,19 @@ output:
 
 Diagnostic and prognostic models are typically evaluated with measures of accuracy, such as the area-under-the-curve (AUC) or the Brier score, that do not address clinical consequences. Decision-analytic techniques allow assessment of clinical outcomes but generally require collection of extensive additional information and are cumbersome to apply to models that yield a risk estimate on a continuous scale from 0 to 1. Decision curve analysis allows incorporation of clinical consequences, thus addressing the question of whether a model would do more good than harm, but is able to do so without excessive extraneous data.
 
-# Code
+# Software Installation, Examples, and Explanations
+
+- [DCA tutorial in R, Python, Stata, SAS](https://www.danieldsjoberg.com/dca-tutorial.html)
+- [DCA tutorial in Python](https://www.danieldsjoberg.com/dca-tutorial/dca-tutorial-python.html)
+- [DCA tutorial in Stata](https://www.danieldsjoberg.com/dca-tutorial/dca-tutorial-stat.html)
+- [DCA tutorial in SAS](https://www.danieldsjoberg.com/dca-tutorial/dca-tutorial-sas.html)
+
+# Source Code
 
 - R: [ddsjoberg/dcurves](https://github.com/ddsjoberg/dcurves)
 - Python: [MSKCC-Epi-Bio/dcurves](https://github.com/MSKCC-Epi-Bio/dcurves)
 - Stata: [ddsjoberg/dca.stata](https://github.com/ddsjoberg/dca.stata)
 - SAS: [ddsjoberg/dca.sas](https://github.com/ddsjoberg/dca.sas)
-
-# Tutorial & Walkthrough
-
-- [DCA tutorial in R](https://www.danieldsjoberg.com/dca-tutorial/dca-tutorial-r.html)
-- [DCA tutorial in Python](https://www.danieldsjoberg.com/dca-tutorial/dca-tutorial-python.html)
-- [DCA tutorial in Stata](https://www.danieldsjoberg.com/dca-tutorial/dca-tutorial-stat.html)
-- [DCA tutorial in SAS](https://www.danieldsjoberg.com/dca-tutorial/dca-tutorial-sas.html)
 
 # Peer-Reviewed Literature
 
